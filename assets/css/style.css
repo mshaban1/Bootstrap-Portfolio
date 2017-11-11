@@ -49,16 +49,12 @@ header{
     font-family: Georgia, Times, "Times New Roman", serif;    
     padding: 25px;
     font-size: 30px;
+    text-align: center;
 }
-a :active{
+
+.logo a {
     color: #fff;
-    text-decoration: none;
 }
-a {        color: #fff;
-    text-decoration: none;
-}
-
-
 
 .logopic{
     
@@ -70,14 +66,11 @@ a {        color: #fff;
 }
 
 
-nav{
-    float:right;
-}
+
 .menu{
     margin-top:25px;
 }
 .menu li{
-    display:inline-block;
     padding:0 10px 0 10px;
     border-right:1px solid #eee
 }
@@ -97,31 +90,23 @@ main{
 }
 
 section{
-    float: left;
-    max-width: 600px;
     background-color: #FFF;
-    padding: 22px;
     margin: 0 0 40px;
     border: 1px solid #ddd;
 }
 
+article {
+    background: #fff;
+}
 
 
-
-aside{
-    float: right;
+aside .content{
     width: 100%;
-    max-width: 230px;
-    padding: 30px;
     margin-bottom: 20px;
     background: #fff;
     border: 1px solid #ddd;
 }
 
-.social-menu li{
-    display: inline-block;
-    text-align: center
-}
 
 .social-menu img{
     max-width: 62px;
@@ -181,176 +166,22 @@ footer{
   }
 
 
-  /* Additional Screen Sizes */
-  /* Width at 320px and below */
-
 @media screen and (max-width: 980px) {
-    
-    body {
-        width: 980px;
-    }
-
-    .content-wrapper {
-        padding: 0 100px;
-        width: auto;
-    }
-
-    .logo{
-        padding: 22px;
-        font-size: 26px;   
-    }
-
-    header{
-        width:100%;
-    }
-
-    section {
-        width: 420px;
-    }
-
-    aside {
-        width: 200px;
-    }
-
-    .logopic {
-        min-width: 100%;
-        margin-bottom: 15px;
-    }
-
-    .galley .img {
-        width: 100%;
-
-    }
-
-    .galley .img img {
-        min-width: 100%;
+    aside .content {
+        margin-top: 25px;
     }
 }
-
-
-@media screen and (max-width: 768px) {
-    
-    body {
-        width: 100%;
-    }
-
-    .content-wrapper {
-        padding: 0 100px;
-        width: auto;
-    }
-
-    .logo{
-        padding: 22px;
-        font-size: 26px;   
-    }
-
-    header{
-        width:100%;
-    }
-
-    section {
-         width: 80%;
-        max-width: 100%;
-        float: right;
-        padding: 10%;
-    }
-
-    aside {
-        width: 80%;
-        float: left;
-        max-width: 100%;
-        clear: both;
-        padding: 10%;
-    }
-
-    .logopic {
-        min-width: auto;
-        margin-bottom: 15px;
-    }
-
-    .galley .img {
-        width: 45%;
-        margin: 20px 2.5%;
-        float: right;
-
-    }
-
-    .galley .img img {
-        min-width: 100%;
-    }
-}
-
-    
 
 @media screen and (max-width: 640px) {
-    
-    body {
-        width: 100%;
+    header .container {
+        padding: 0;
     }
 
-    .content-wrapper {
-        padding: 0 20px;
-        width: auto;
+    header .container > .col-xs-12 {
+        padding:  0;
     }
 
-    header .content-wrapper {
-        padding: 0
-    }
-
-    .logo{
-        padding: 22px;
-        font-size: 26px;
-        float: none;
-        text-align: center;   
-    }
-
-    header{
-        width:100%;
-    }
-
-    nav {
-        float: none;
+    header .list-inline {
         text-align: center;
-        margin: 10px 0;
-    }
-
-    nav .menu {
-        margin: 0;
-    }
-    section {
-         width: 80%;
-        max-width: 100%;
-        float: right;
-        padding: 10%;
-    }
-
-    aside {
-        width: 80%;
-        float: left;
-        max-width: 100%;
-        clear: both;
-        padding: 10%;
-    }
-
-    .logopic {
-        min-width: 100%;
-        margin-bottom: 15px;
-    }
-
-    .galley .img {
-        width: 100%;
-        float: right;
-
-    }
-
-    .galley .img img {
-        min-width: 100%;
     }
 }
-
-    
-
-    
-    
-    
-    
