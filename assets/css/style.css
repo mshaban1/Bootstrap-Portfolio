@@ -131,6 +131,7 @@ form input[type="text"],textarea{
     min-width: 130px;
     background: #13a5a5;     
     color: #fff;
+    margin-bottom: 15px;
 }
 
 
