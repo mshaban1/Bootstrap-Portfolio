@@ -9,8 +9,6 @@ body{
 
 h1,h2,h3,h4,h5,h6{
     font-family: Georgia, Times, "Times New Roman", serif;
-    
-    
 }
 
 h1{
@@ -27,18 +25,15 @@ header{
     z-index: 99;
     width: 100%;
     margin: 0 0 30px;
-    overflow: auto;
-    
-    
+    overflow: auto;   
 }
+
 .content-wrapper{
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
-      }
-
-
+}
 
 .logo{
     float:left;
@@ -70,10 +65,12 @@ header{
 .menu{
     margin-top:25px;
 }
+
 .menu li{
     padding:0 10px 0 10px;
     border-right:1px solid #eee
 }
+
 .menu li:last-child{
     border:0
 }
@@ -99,7 +96,6 @@ article {
     background: #fff;
 }
 
-
 aside .content{
     width: 100%;
     margin-bottom: 20px;
@@ -107,11 +103,9 @@ aside .content{
     border: 1px solid #ddd;
 }
 
-
 .social-menu img{
     max-width: 62px;
 }
-
 
 form label{
     color:#999
@@ -135,7 +129,6 @@ form input[type="text"],textarea{
 }
 
 
-.galley{}
 .galley .img{width: 45%;display: inline-block;height: 200px;margin: 10px;overflow: hidden;text-align: center;background: #f1f1f1;position: relative;}
 .galley .img img{
     max-width: 100%;
